@@ -11,6 +11,7 @@ This template has been primarily developed and tested with the LILYGO T-Display-
 1. If you haven't done so already, create a new EEZ Studio project using the LVGL template. Add all the necessary UI elements and screens you want to use in your project. Make sure to test the UI in the EEZ Studio simulator to ensure everything works as expected.
 2. Click the build button in EEZ Studio to generate the UI code. This will create a folder named `ui` in your project directory (most likely inside the `src` folder), containing all the necessary files for your UI.
 3. Copy the files from the `ui` folder into the `libraries/ui` folder of this template. This will allow the Arduino IDE or PlatformIO to access the UI code.
+4. Using Arduino IDE or PlatformIO install LVGL v8.4.0 (or lower) and the LILYGO AMOLED series library [(you can follow the instructions here)](https://github.com/Xinyuan-LilyGO/LilyGo-AMOLED-Series). Make sure they are installed in the `libraries` folder and also make sure the `lv_conf.h` and the `TFT_eSPI\User_Setup.h` you use are the ones from this template (should be the same as the ones from the LilyGO repo).
 
 ## Running the project (Arduino IDE)
 
